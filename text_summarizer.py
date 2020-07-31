@@ -26,7 +26,7 @@ def document_reader(file_name):
     
     return sentences
 
-document_reader("/content/drive/My Drive/text-summarizer/msft.txt")
+# document_reader("msft.txt")
 
 def cosine_sim(sent1, sent2, stopwords=None):
     if stopwords is None:
@@ -83,5 +83,5 @@ def doc_summary(file_name, top_n):
 
     print("\n\nSummarize Text: \n", ". ".join(summarize_text))
 
-doc_summary( "/content/drive/My Drive/text-summarizer/fb.txt", 5)
+doc_summary("fb.txt", 5)
 
