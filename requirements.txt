@@ -1,0 +1,4 @@
+networkx==2.4
+nltk==3.4.5
+numpy==1.18.1
+stop-words==2018.7.23
